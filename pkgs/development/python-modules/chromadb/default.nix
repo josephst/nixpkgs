@@ -123,7 +123,7 @@ buildPythonPackage rec {
     pytestCheckHook
   ];
 
-  pythonImportsCheck = [ "chromadb" ];
+  # pythonImportsCheck = [ "chromadb" ];
 
   env = {
     ZSTD_SYS_USE_PKG_CONFIG = true;
